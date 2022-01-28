@@ -10,8 +10,7 @@ def contentOfBag(amountOfmnm):
             bag[randomColor] += 1
         else:
             bag[randomColor] = 1
-    mnmDictionaryBag = {}
     return bag
 
 amountOfmnm = int(input("How much M&M'S do you want?"))
-print(contentOfBag(amountOfmnm))
+print(contentOfBag(amountOfmnm)) 
